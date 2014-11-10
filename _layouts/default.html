@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+   
+       
+   
+   
+	<div class="container" role="main">
+		
+				<nav>
+					<ul>
+						<li class="active">
+							  <a class="post-link" href="/">Blog</a>
+						</li>
+						<li >
+							<a href="/about">About me</a>
+						</li>
+						
+						<li>
+							<a href="/projects">Projects</a>
+						</li>
+					
+						
+					</ul>	
+				</nav>	
+				
+				<section>
+					 {{ content }}
+				</section>	
+					
+			 {% include footer.html %}
+			
+  </body>
+
+</html>

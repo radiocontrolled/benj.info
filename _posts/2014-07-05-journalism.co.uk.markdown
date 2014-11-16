@@ -12,6 +12,6 @@ She asked me to speak about <a href="https://github.com/radiocontrolled/build-th
 a prototype of an HTML5 placeholding tool for longform articles. 
 
 I built Save my Spot This at _The Times_ and _The Sunday Times_ <a href="http://buildthenews.wordpress.com/">Build The News</a> 
-hack weekend in October 2014. Save my Spon won a 'Special Commendation' so I was pleased with the outcome!
+hack weekend in October 2014. It won a 'Special Commendation' so I was pleased with the outcome
 
-The interview is <a href="https://www.journalism.co.uk/news/advice-for-journalists-taking-part-in-hackathons/s2/a563060/">here</a>.
+The interview is up <a href="https://www.journalism.co.uk/news/advice-for-journalists-taking-part-in-hackathons/s2/a563060/">here</a>.

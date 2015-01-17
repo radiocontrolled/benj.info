@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Long Distance Relationship: D3 and the planets of the Solar System"
+date:   2014-12-07 16:57:00
+
+---
+
+I've been thinking about how to visualise distance and I thought the <a href="http://radiocontrolled.github.io/long-distance-relationship/index.html">planets of the Solar System</a> would be compelling to explore.
+
+Using Wikipedia, I found the average distance of planets to the Sun, as well as each planet's equatorial radius. I represented that information in a JSON. 
+
+A D3 scale is at the heart of the visualisation. In <code>vis.js</code>, the height and width of the SVG (the canvas for the drawing) is set relative to the size of the user's device. That same height is taken into account in a linear scale: 
+D3 takes the minimum and maximum distance to the Sun (with the Sun represented as 0) as the input domain, and maps it to an output range, which is 90% of the height of the SVG.
+
+<pre><code>
+	var distanceFromSunScale = d3.scale.linear()
+		//input domain = min & max distances
+		.domain([d3.min(distances),d3.max(distances)])
+		// output range = 90% of height of SVG
+		.range([0, height*0.90]); 
+</code></pre>
+
+I chose to represent distance vertically, with the Sun as the top border of the SVG and a labelled y axis (using the same scale) running from the top to the bottom
+of the SVG. 
+
+My thinking in choosing a vertical orientation was that this would be a more mobile-first approach because eight planets worth of data would be a 
+little tricky to display in a readible way on a mobile with a portrait orientation. 
+
+I also thought that making the user scroll (normally I would want to avoid this) could also, in a sense, help convey distance. 
+
+<img src="https://raw.githubusercontent.com/radiocontrolled/long-distance-relationship/master/screenshot.PNG" style="width:300px!important" alt="screenshot of the Solar System visualation to show how content only partially fits viewport size" />
+
+A final note, the size of the planets themselves are not to scale (relative to how the chart illustrates distance). However, they are to scale relative to each other's size. 
+
+A demo of this visualisation is here: <a href="http://radiocontrolled.github.io/long-distance-relationship/index.html">http://radiocontrolled.github.io/long-distance-relationship/index.html</a>. 
+
+The repository is on <a href="http://github.com/radiocontrolled/long-distance-relationship">GitHub</a>.
+
+<br/><br/>

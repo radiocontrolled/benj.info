@@ -8,6 +8,11 @@
 body{
 	margin: 0; 
 	padding: 0; 
+	color: #555555;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+	-webkit-text-size-adjust: none;
 } 
 ol, ul { 
 	list-style: none;
@@ -19,13 +24,7 @@ li {
     padding-bottom: 1em;
 }
 
-body {
-	line-height: 1;
-	color: #555555;
-	font: 100%/1.4  Helvetica, Arial, sans-serif;
-	-webkit-text-size-adjust: none;
-	
-}
+
 .container {
 	margin: 0 auto;
 	padding: 0 1em;
@@ -62,6 +61,7 @@ h2, h3 {
 }
 h3{
 	font-size: 1.5em!important;
+	margin-bottom: 1.5em!important;
 }
 nav{
     float: left;

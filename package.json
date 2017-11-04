@@ -1,0 +1,26 @@
+{
+  "name": "benj.info",
+  "version": "2.0.0",
+  "description": "git push -f origin master:gh-pages",
+  "main": "index.js",
+  "scripts": {
+    "copy-bootstrap": "cp node_modules/bootstrap/dist/css/bootstrap.min.css assets/css/bootstrap.min.css",
+    "sass": "node-sass --output-style compact scss/style.scss assets/css/style.css"
+  },
+  "author": "Alison Benjamin",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiocontrolled/benj.info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/radiocontrolled/benj.info/issues"
+  },
+  "homepage": "https://github.com/radiocontrolled/benj.info#readme"
+}

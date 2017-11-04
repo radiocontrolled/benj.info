@@ -1,22 +1,135 @@
----
-layout: default
----
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='assets/css/bootstrap.min.css' rel='stylesheet'/>
+    <link href='assets/css/style.css' rel='stylesheet'/>
+    <title>Alison Benjamin</title>
+  </head>
+  <body>
+    <main> 
+      <header>
+        <div class="container">
+          <h1>Alison Benjamin</h1>
+          <p>News App Developer / <a href="mailto:alison.benjamin@gmail.com">alison.benjamin@gmail.com</a></p>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Work</h2>
+            <hr/>
+            <br/><br/>
+          </div>
+         </div>
+         <div class="row">
+          <div class="col-md-4 selected-item">
+            <a href="http://www.bbc.co.uk/news/business-40756834">
+              <h3>Does your job pay less than it did five years ago?</h3>
+              <img src="assets/images/onsPayInflation.png" alt="bar chart comparing male vs female pay" class="thumb" />
+            </a>
+            <p class="tag">BBC News</p>
+          </div>
 
-<div class="home">
+          <div class="col-md-4 selected-item">
+            <a href="http://www.bbc.co.uk/news/science-environment-40965596">
+              <h3>When is the next solar eclipse in my country?</h3>
+              <img src="assets/images/eclipseCalculator.png" alt="user interface to search for a country and display the next soloar eclipse date for that country" class="thumb" />
+            </a>
+            <p class="tag">BBC News</p>
+          </div>
 
-  <h1 class="page-heading">Alison Benjamin</h1>
+          <div class="col-md-4 selected-item">
+            <a href="http://www.bbc.co.uk/sport/athletics/40779741">
+              <h3>Usain Bolt: Eight-time Olympic champion's career in 9.58 charts</h3>
+              <img src="assets/images/100mRecordOverTime.png" alt="map of bethnal green constituency" class="thumb" />
+            </a>
+            <p class="tag">BBC Sport</p>
+          </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h5>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h5>
-        <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-
-  
-
-</div>
+          <div class="col-md-4 selected-item">
+            <a href="http://www.bbc.co.uk/news/election-2017-40176349">
+              <h3>Election 2017: The result in maps and charts</h3>
+              <img src="assets/images/election2017TheResultInMapsAndCharts.png" alt="map of bethnal green constituency" class="thumb" />
+            </a>
+            <p class="tag">BBC News</p>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="http://www.bbc.co.uk/news/election-2017-39856354">
+              <h3>Poll tracker: How the parties compare</h3>
+              <img src="assets/images/pollTrackerHowThePartiesCompare.png" alt="linechart and scatterplot tracking UK political parties" class="thumb" />
+            </a>
+            <p class="tag">BBC News</p>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="http://www.bbc.co.uk/news/world-europe-39641442">
+              <h3>French election poll tracker</h3>
+              <img src="assets/images/frenchElectionPollTracker.png" alt="linechart tracking Marine Le Pen and Emmanual Macron" class="thumb" />
+            </a>
+            <p class="tag">BBC News</p>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>The Color of Debt</h3>
+              <img src="assets/images/512px-ProPublica_logo.svg.png" alt="Pro Publica logo" class="thumb" />
+            </a>
+            <p class="tag">Pro Publica</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Projects</h2>
+            <hr/>
+            <br/><br/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>How low can you go?</h3>
+              <img src="assets/images/howLow.png" alt="segment of line series chart" class="thumb" />
+            </a>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>How low can you stay?</h3>
+              <img src="assets/images/howLong.png" alt="segment of an area chart" class="thumb" />
+            </a>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>How does your bribe compare?</h3>
+              <img src="assets/images/bribe.png" alt="linechart tracking Marine Le Pen and Emmanual Macron" class="thumb" />
+            </a>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>The Trans-Siberian Railway</h3>
+              <img src="assets/images/transsib.png" alt="linechart tracking Marine Le Pen and Emmanual Macron" class="thumb" />
+            </a>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>UK Population Estimates</h3>
+              <img src="assets/images/ukPopEstimates.png" alt="linechart tracking Marine Le Pen and Emmanual Macron" class="thumb" />
+            </a>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>Solar System, sorted</h3>
+              <img src="assets/images/solarSystemSorted.png" alt="linechart tracking Marine Le Pen and Emmanual Macron" class="thumb" />
+            </a>
+          </div>
+          <div class="col-md-4 selected-item">
+            <a href="https://projects.propublica.org/garnishments/">
+              <h3>Long Distance Relationship</h3>
+              <img src="assets/images/longDistanceRelationship.png" alt="linechart tracking Marine Le Pen and Emmanual Macron" class="thumb" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <script src="js/main.js"></script> --> 
+  </body>
+</html>

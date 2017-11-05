@@ -1,3 +1,3 @@
 
 # About
-Website for <a href="http://benj.info">benj.info</a>
+Website for <a href="http://benj.info">benj.info</a>.

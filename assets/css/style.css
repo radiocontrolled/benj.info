@@ -6,6 +6,10 @@ header { padding: 2em 0 2em 0; margin-bottom: 2em; }
 
 h1, h2, h3 { color: #2c3e50; }
 
+.papers-presentations a { color: #16a085; text-decoration: underline; }
+
+.papers-presentations a:hover, .papers-presentations a:focus, .papers-presentations a:active { color: #2980b9; }
+
 a:hover h1, a:hover h2, a:hover h3, a:focus h1, a:focus h2, a:focus h3, a:active h1, a:active h2, a:active h3 { color: #16a085; text-decoration: underline; }
 
 h1 { font-size: 1.5em; }
